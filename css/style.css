@@ -85,8 +85,12 @@ html, body {
   background: #f40612;
 }
 
-.features-tabs {
+.features-tabs-header {
   margin: 0 auto;
+  width: 80%;
+}
+
+.features-tabs {
   padding-top: 35px;
   background-color: #141414;
   border-bottom: 2px solid #3d3d3d;
@@ -94,6 +98,7 @@ html, body {
 
 .features-tabs__tab {
   display: inline-block;
+  width: 33%;
   text-decoration: none;
   text-align: center;
   vertical-align: top;
