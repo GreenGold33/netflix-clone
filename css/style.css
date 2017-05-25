@@ -81,6 +81,10 @@ html, body {
   border: 0;
 }
 
+.btn-large {
+  padding: 18px 20px;
+}
+
 .btn:hover {
   background: #f40612;
 }
@@ -120,4 +124,32 @@ html, body {
 
 .features-tabs__tab__title {
   margin-top: 10px;
+}
+
+.features-tabs-content__tab {
+  padding: 40px 0;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.cancel-anytime {
+  white-space: nowrap;
+}
+
+.cancel-anytime__left,
+.cancel-anytime__right {
+  width: 50%;
+  white-space: normal;
+  vertical-align: bottom;
+  display: inline-block;
+}
+
+.cancel-anytime__right img {
+  max-width: 100%;
+}
+
+.cancel-anytime__text {
+  display: block;
+  font-size: 32px;
+  margin-bottom: 20px;
 }
