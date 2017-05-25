@@ -8,3 +8,37 @@ header {
   background-image: url('../img/header-background.jpg');
   height: 100vh;
 }
+
+header nav {
+  height: 90px;
+}
+
+nav .link {
+  display: inline-block;
+  line-height: 90px;
+  text-decoration: none;
+}
+
+nav .link.logo {
+  margin-left: 3%;
+}
+
+nav .link.signin {
+  float: right;
+  color: #fff;
+  background-color: #e50914;
+  line-height: normal;
+  margin-top: 18px;
+  margin-right: 3%;
+  padding: 7px 17px;
+  font-weight: 400;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.netflix-logo {
+  fill: #e50914;
+  width: 167px;
+  height: 45px;
+  vertical-align: middle;
+}
