@@ -132,6 +132,14 @@ html, body {
   width: 70%;
 }
 
+.features-tabs-content__tab-container {
+  display: none;
+}
+
+.features-tabs-content__tab-container--selected {
+  display: block;
+}
+
 .cancel-anytime {
   white-space: nowrap;
 }
