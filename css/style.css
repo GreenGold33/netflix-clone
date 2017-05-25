@@ -98,12 +98,18 @@ html, body {
   text-align: center;
   vertical-align: top;
   font-weight: bold;
-  color: white;
+  color: #777;
+  fill: #777;
   height: 125px;
 }
 
-.features-tabs__tab__icon {
+.features-tabs__tab--selected {
+  border-bottom: 5px solid #e50914;
+  color: white;
   fill: white;
+}
+
+.features-tabs__tab__icon {
   height: 49px;
 }
 
