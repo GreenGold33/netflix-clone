@@ -44,20 +44,20 @@ nav .link.signin {
   vertical-align: middle;
 }
 
-.pitch {
+#pitch {
   margin: 0 3%;
   position: absolute;
   top: 35%;
   font-size: 1.8vw;
 }
 
-.pitch__title {
+#pitch > h1 {
   font-size: 3em;
   margin: 0 0 0.2em;
   font-weight: 700;
 }
 
-.pitch__subtitle {
+#pitch > p {
   margin: 0 0 .5em;
 }
 
@@ -87,18 +87,18 @@ nav .link.signin {
   background: #f40612;
 }
 
-.features-tabs-header {
-  margin: 0 auto;
-  width: 80%;
-}
-
-.features-tabs {
+#features > nav {
   padding-top: 35px;
   background-color: #141414;
   border-bottom: 2px solid #3d3d3d;
 }
 
-.features-tabs__tab {
+#features > nav > div {
+  margin: 0 auto;
+  width: 80%;
+}
+
+#features > nav a {
   display: inline-block;
   width: 33%;
   text-decoration: none;
@@ -109,17 +109,18 @@ nav .link.signin {
   height: 125px;
 }
 
-.features-tabs__tab--selected {
+#features > nav a.is-selected {
   border-bottom: 5px solid #e50914;
   color: white;
 }
 
-.features-tabs__tab__icon {
+#features > nav a img {
   height: 49px;
 }
 
-.features-tabs__tab__title {
-  margin-top: 10px;
+#features > nav a h2 {
+  margin: 10px 0 0;
+  font-size: 1em;
 }
 
 .features-tabs-content__tab {
