@@ -21,11 +21,11 @@ nav .link {
   text-decoration: none;
 }
 
-nav .link.logo {
+nav .link:first-child {
   margin-left: 3%;
 }
 
-nav .link.signin {
+nav .link:last-child {
   float: right;
   color: #fff;
   background-color: #e50914;
