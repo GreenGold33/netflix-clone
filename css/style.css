@@ -123,18 +123,25 @@ nav .link.signin {
   font-size: 1em;
 }
 
-.features-tabs-content__tab {
+#features > article > section {
   padding: 40px 0;
   margin: 0 auto;
   width: 70%;
-}
-
-.features-tabs-content__tab-container {
   display: none;
 }
 
-.features-tabs-content__tab-container--selected {
+#features > article > section.is-selected {
   display: block;
+}
+
+#features > article h2 {
+  font-size: 32px;
+  font-weight: 400;
+  margin: 0 0 20px;
+}
+
+#features img {
+  max-width: 100%;
 }
 
 .cancel-anytime {
@@ -147,14 +154,4 @@ nav .link.signin {
   white-space: normal;
   vertical-align: bottom;
   display: inline-block;
-}
-
-.cancel-anytime__right img {
-  max-width: 100%;
-}
-
-.cancel-anytime__text {
-  display: block;
-  font-size: 32px;
-  margin-bottom: 20px;
 }
