@@ -132,6 +132,10 @@ nav .link:last-child {
   font-size: 1em;
 }
 
+#features > article {
+  margin-bottom: 120px;
+}
+
 #features > article > section {
   padding: 40px 0;
   display: none;
