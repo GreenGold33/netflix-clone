@@ -6,27 +6,26 @@ html, body {
   margin: 0;
 }
 
-.header {
+header {
   background-image: url('../img/header-background.jpg');
   height: 100vh;
 }
 
-.header .nav {
+header nav {
   height: 90px;
 }
 
-/* Could be refactored with BEM */
-.nav .link {
+nav .link {
   display: inline-block;
   line-height: 90px;
   text-decoration: none;
 }
 
-.nav .link.logo {
+nav .link.logo {
   margin-left: 3%;
 }
 
-.nav .link.signin {
+nav .link.signin {
   float: right;
   color: #fff;
   background-color: #e50914;
