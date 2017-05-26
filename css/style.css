@@ -40,7 +40,6 @@ html, body {
 }
 
 .netflix-logo {
-  fill: #e50914;
   width: 167px;
   height: 45px;
   vertical-align: middle;
@@ -108,14 +107,12 @@ html, body {
   vertical-align: top;
   font-weight: bold;
   color: #777;
-  fill: #777;
   height: 125px;
 }
 
 .features-tabs__tab--selected {
   border-bottom: 5px solid #e50914;
   color: white;
-  fill: white;
 }
 
 .features-tabs__tab__icon {
