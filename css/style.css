@@ -155,3 +155,32 @@ nav .link:last-child {
   width: 33%;
   white-space: normal;
 }
+
+footer {
+  padding-top: 20px;
+  color: #999;
+}
+
+footer a {
+  color: #999;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer > p {
+  margin: 0 0 30px;
+}
+
+footer > ul {
+  margin: 0;
+  padding: 0;
+}
+
+footer > ul > li {
+  list-style: none;
+  margin: 0 0 1em;
+  padding-right: 0.75em;
+}
