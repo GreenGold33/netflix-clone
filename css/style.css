@@ -109,6 +109,10 @@ nav .link:last-child {
   width: 80%;
 }
 
+.size-90 {
+  width: 90%;
+}
+
 #features > nav a {
   text-decoration: none;
   text-align: center;
@@ -146,7 +150,7 @@ nav .link:last-child {
 }
 
 #features > article h2 {
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 400;
   margin: 0 0 20px;
 }
@@ -155,26 +159,24 @@ nav .link:last-child {
   max-width: 100%;
 }
 
-.container {
-  white-space: nowrap;
+.columns {
+  display: flex;
 }
 
-.block-1-2 {
-  display: inline-block;
-  width: 50%;
-  white-space: normal;
+.columns.flex-wrap {
+  flex-wrap: wrap;
 }
 
-.block-1-3 {
-  display: inline-block;
-  width: 33%;
-  white-space: normal;
+.column {
+  display: block;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 
-.block-1-4 {
-  display: inline-block;
+.column.is-25 {
+  flex: none;
   width: 25%;
-  white-space: normal;
 }
 
 footer {
