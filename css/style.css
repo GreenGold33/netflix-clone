@@ -179,6 +179,10 @@ nav .link:last-child {
   width: 25%;
 }
 
+.column.is-narrow {
+  flex: none;
+}
+
 footer {
   padding-top: 20px;
   color: #999;
@@ -226,6 +230,19 @@ footer > ul > li {
 #company {
   font-size: 13px;
   margin: 24px 0 50px;
+}
+
+#features #watchanywhere h2 {
+  font-size: 19px;
+  padding-right: 1em;
+}
+
+#features #watchanywhere > div:first-child {
+  margin-bottom: 60px;
+}
+
+#features #watchanywhere p {
+  color: #999;
 }
 
 .text-center {
