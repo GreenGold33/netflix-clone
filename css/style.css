@@ -227,3 +227,43 @@ footer > ul > li {
   font-size: 13px;
   margin: 24px 0 50px;
 }
+
+.text-center {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+table, thead, tbody {
+  border-collapse: collapse;
+}
+
+thead {
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+thead th {
+  padding: 10px;
+}
+
+tbody {
+  color: #999;
+}
+
+tbody td {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+tbody tr:nth-child(2n) {
+  background-color: #222;
+}
+
+tbody td:first-child {
+  text-align: left;
+}
